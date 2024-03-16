@@ -1,7 +1,7 @@
 table#tlayout {
     width: 100%;
     border-spacing: 30px;
-	max-width: 920px;
+	max-width: 990px;
     border: none;
     border-collapse: separate;
     background: white;
@@ -113,6 +113,17 @@ strong {
 	font-weight: bold;
 }
 
+.author {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.pub {
+    font-weight: bold;
+    font-size: 100%;
+/*    color: #527bbd;*/
+}
+
 h1, h2, h3 {
 	color: #527bbd;
 	margin-top: 0.7em;
@@ -146,7 +157,7 @@ p {
 	margin-top: 0.0em;
 	margin-bottom: 0.8em;
 	padding: 0;
-	line-height: 1.3;
+	line-height: 1.5;
 }
 
 pre {
